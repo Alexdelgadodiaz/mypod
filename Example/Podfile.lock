@@ -1,27 +1,30 @@
 PODS:
-  - Nimble (7.3.4)
-  - Quick (1.2.0)
-  - TGCore (0.1.0)
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+  - TGCore (0.1.0):
+    - Parse (~> 1.17.3)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0)
-  - Quick (~> 1.2.0)
+  - Parse (~> 1.17.3)
   - TGCore (from `../`)
 
 SPEC REPOS:
   trunk:
-    - Nimble
-    - Quick
+    - Bolts
+    - Parse
 
 EXTERNAL SOURCES:
   TGCore:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  TGCore: f054f87b9492111c9a48ef9c515fc46cbbdb211a
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  TGCore: 66746b98f483a86372bc0fd4065ceb167762fefb
 
-PODFILE CHECKSUM: 22c4df0690f1f3469acef29611073e53b773eb13
+PODFILE CHECKSUM: 5e8fef51a4b1158b48098b7dfba12b347aa218c5
 
 COCOAPODS: 1.8.4

@@ -7,60 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9B7BDB014C94D432E700963A /* Pods_TGCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E50AA0D9475B089801B5DB1 /* Pods_TGCore_Example.framework */; };
-		D11DB4E0235F61C600AFE6D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB4DE235F61C600AFE6D9 /* SceneDelegate.swift */; };
-		D11DB4E1235F61C600AFE6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB4DF235F61C600AFE6D9 /* AppDelegate.swift */; };
-		FF06CEC39390F7E4A40E075C /* Pods_TGCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D11486CA42A4A6D1C86B0C8 /* Pods_TGCore_Tests.framework */; };
+		C05A20D3F0CA83FEA7AD9B9D /* Pods_TGCoreExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EE61FCC8F56D08D4474A49 /* Pods_TGCoreExample.framework */; };
+		D11DB563235F70EA00AFE6D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB562235F70EA00AFE6D9 /* ContentView.swift */; };
+		D11DB565235F70EC00AFE6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11DB564235F70EC00AFE6D9 /* Assets.xcassets */; };
+		D11DB568235F70EC00AFE6D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11DB567235F70EC00AFE6D9 /* Preview Assets.xcassets */; };
+		D11DB56B235F70EC00AFE6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11DB569235F70EC00AFE6D9 /* LaunchScreen.storyboard */; };
+		D11DB576235F70EC00AFE6D9 /* TGCoreExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB575235F70EC00AFE6D9 /* TGCoreExampleTests.swift */; };
+		D11DB592235F74F100AFE6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB590235F74F100AFE6D9 /* AppDelegate.swift */; };
+		D11DB593235F74F100AFE6D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DB591235F74F100AFE6D9 /* SceneDelegate.swift */; };
+		DE0305CF1594597A1A2933AB /* Pods_TGCoreExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E5E91D84615036AAB140EB /* Pods_TGCoreExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		D11DB572235F70EC00AFE6D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = TGCore;
+			remoteGlobalIDString = D11DB55B235F70EA00AFE6D9;
+			remoteInfo = TGCoreExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		607FACD01AFB9204008FA782 /* TGCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* TGCore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		28EE61FCC8F56D08D4474A49 /* Pods_TGCoreExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCoreExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E5E91D84615036AAB140EB /* Pods_TGCoreExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCoreExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67378963C292E0A0223043E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		689948DB4B07492EF5854C38 /* Pods-TGCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TGCore_Tests/Pods-TGCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D40BF693B1A533AE7C15FFE /* Pods-TGCoreExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCoreExampleTests.release.xcconfig"; path = "Target Support Files/Pods-TGCoreExampleTests/Pods-TGCoreExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7127EE55ACC5D913ED4DD5DD /* Pods-TGCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-TGCore_Example/Pods-TGCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7852AE5448B82AD161707FF8 /* Pods-TGCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-TGCore_Tests/Pods-TGCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E50AA0D9475B089801B5DB1 /* Pods_TGCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B802129B797F0B1EF9DD390 /* TGCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TGCore.podspec; path = ../TGCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D11486CA42A4A6D1C86B0C8 /* Pods_TGCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EF2BD4C495C7F012D3E37C /* Pods-TGCoreExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCoreExample.release.xcconfig"; path = "Target Support Files/Pods-TGCoreExample/Pods-TGCoreExample.release.xcconfig"; sourceTree = "<group>"; };
+		C1F977AF5EA076397105C98E /* Pods-TGCoreExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCoreExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TGCoreExampleTests/Pods-TGCoreExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6080608EDC69BCD6B9AB73E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D11DB4DE235F61C600AFE6D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D11DB4DF235F61C600AFE6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8C8DFAE6AF154549F354705 /* Pods-TGCoreExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCoreExample.debug.xcconfig"; path = "Target Support Files/Pods-TGCoreExample/Pods-TGCoreExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D11DB55C235F70EA00AFE6D9 /* TGCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11DB562235F70EA00AFE6D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D11DB564235F70EC00AFE6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D11DB567235F70EC00AFE6D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11DB56A235F70EC00AFE6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D11DB56C235F70EC00AFE6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11DB571235F70EC00AFE6D9 /* TGCoreExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCoreExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11DB575235F70EC00AFE6D9 /* TGCoreExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGCoreExampleTests.swift; sourceTree = "<group>"; };
+		D11DB577235F70EC00AFE6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11DB590235F74F100AFE6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D11DB591235F74F100AFE6D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCDE137BE28ADAC16F30ADAF /* Pods-TGCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCore_Example.release.xcconfig"; path = "Target Support Files/Pods-TGCore_Example/Pods-TGCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+		D11DB559235F70EA00AFE6D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7BDB014C94D432E700963A /* Pods_TGCore_Example.framework in Frameworks */,
+				C05A20D3F0CA83FEA7AD9B9D /* Pods_TGCoreExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		D11DB56E235F70EC00AFE6D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF06CEC39390F7E4A40E075C /* Pods_TGCore_Tests.framework in Frameworks */,
+				DE0305CF1594597A1A2933AB /* Pods_TGCoreExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for TGCore */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				D11DB55D235F70EA00AFE6D9 /* TGCoreExample */,
+				D11DB574235F70EC00AFE6D9 /* TGCoreExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				F8DB7F300681904ADD85725C /* Pods */,
 				EDC28F2B5707691877437058 /* Frameworks */,
@@ -82,48 +92,10 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* TGCore_Example.app */,
-				607FACE51AFB9204008FA782 /* TGCore_Tests.xctest */,
+				D11DB55C235F70EA00AFE6D9 /* TGCoreExample.app */,
+				D11DB571235F70EC00AFE6D9 /* TGCoreExampleTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for TGCore */ = {
-			isa = PBXGroup;
-			children = (
-				D11DB4DF235F61C600AFE6D9 /* AppDelegate.swift */,
-				D11DB4DE235F61C600AFE6D9 /* SceneDelegate.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for TGCore";
-			path = TGCore;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -136,11 +108,44 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D11DB55D235F70EA00AFE6D9 /* TGCoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				D11DB590235F74F100AFE6D9 /* AppDelegate.swift */,
+				D11DB591235F74F100AFE6D9 /* SceneDelegate.swift */,
+				D11DB562235F70EA00AFE6D9 /* ContentView.swift */,
+				D11DB564235F70EC00AFE6D9 /* Assets.xcassets */,
+				D11DB569235F70EC00AFE6D9 /* LaunchScreen.storyboard */,
+				D11DB56C235F70EC00AFE6D9 /* Info.plist */,
+				D11DB566235F70EC00AFE6D9 /* Preview Content */,
+			);
+			path = TGCoreExample;
+			sourceTree = "<group>";
+		};
+		D11DB566235F70EC00AFE6D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D11DB567235F70EC00AFE6D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D11DB574235F70EC00AFE6D9 /* TGCoreExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D11DB575235F70EC00AFE6D9 /* TGCoreExampleTests.swift */,
+				D11DB577235F70EC00AFE6D9 /* Info.plist */,
+			);
+			path = TGCoreExampleTests;
+			sourceTree = "<group>";
+		};
 		EDC28F2B5707691877437058 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7E50AA0D9475B089801B5DB1 /* Pods_TGCore_Example.framework */,
 				9D11486CA42A4A6D1C86B0C8 /* Pods_TGCore_Tests.framework */,
+				28EE61FCC8F56D08D4474A49 /* Pods_TGCoreExample.framework */,
+				41E5E91D84615036AAB140EB /* Pods_TGCoreExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +157,10 @@
 				DCDE137BE28ADAC16F30ADAF /* Pods-TGCore_Example.release.xcconfig */,
 				689948DB4B07492EF5854C38 /* Pods-TGCore_Tests.debug.xcconfig */,
 				7852AE5448B82AD161707FF8 /* Pods-TGCore_Tests.release.xcconfig */,
+				C8C8DFAE6AF154549F354705 /* Pods-TGCoreExample.debug.xcconfig */,
+				B0EF2BD4C495C7F012D3E37C /* Pods-TGCoreExample.release.xcconfig */,
+				C1F977AF5EA076397105C98E /* Pods-TGCoreExampleTests.debug.xcconfig */,
+				6D40BF693B1A533AE7C15FFE /* Pods-TGCoreExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -159,43 +168,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* TGCore_Example */ = {
+		D11DB55B235F70EA00AFE6D9 /* TGCoreExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TGCore_Example" */;
+			buildConfigurationList = D11DB589235F70EC00AFE6D9 /* Build configuration list for PBXNativeTarget "TGCoreExample" */;
 			buildPhases = (
-				00DD3D007C3D462A0AD7F278 /* [CP] Check Pods Manifest.lock */,
-				607FACCC1AFB9204008FA782 /* Sources */,
-				607FACCD1AFB9204008FA782 /* Frameworks */,
-				607FACCE1AFB9204008FA782 /* Resources */,
-				5FA0624042213E0AF9EFC77B /* [CP] Embed Pods Frameworks */,
+				2950C3EFA86A1E49C2CDF8C1 /* [CP] Check Pods Manifest.lock */,
+				D11DB558235F70EA00AFE6D9 /* Sources */,
+				D11DB559235F70EA00AFE6D9 /* Frameworks */,
+				D11DB55A235F70EA00AFE6D9 /* Resources */,
+				CD4663DD89E8DD50333469E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TGCore_Example;
-			productName = TGCore;
-			productReference = 607FACD01AFB9204008FA782 /* TGCore_Example.app */;
+			name = TGCoreExample;
+			productName = TGCoreExample;
+			productReference = D11DB55C235F70EA00AFE6D9 /* TGCoreExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* TGCore_Tests */ = {
+		D11DB570235F70EC00AFE6D9 /* TGCoreExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TGCore_Tests" */;
+			buildConfigurationList = D11DB58A235F70EC00AFE6D9 /* Build configuration list for PBXNativeTarget "TGCoreExampleTests" */;
 			buildPhases = (
-				BB382ADB0F7B48CE7526B77F /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				79BD67496A9462CB15AD45CC /* [CP] Embed Pods Frameworks */,
+				F7596D9AD77E37FB09FBEDF5 /* [CP] Check Pods Manifest.lock */,
+				D11DB56D235F70EC00AFE6D9 /* Sources */,
+				D11DB56E235F70EC00AFE6D9 /* Frameworks */,
+				D11DB56F235F70EC00AFE6D9 /* Resources */,
+				97BE8D42822D386D60DA2205 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+				D11DB573235F70EC00AFE6D9 /* PBXTargetDependency */,
 			);
-			name = TGCore_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* TGCore_Tests.xctest */;
+			name = TGCoreExampleTests;
+			productName = TGCoreExampleTests;
+			productReference = D11DB571235F70EC00AFE6D9 /* TGCoreExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,18 +213,20 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					D11DB55B235F70EA00AFE6D9 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 54B96T6J84;
+						ProvisioningStyle = Automatic;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					D11DB570235F70EC00AFE6D9 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 54B96T6J84;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D11DB55B235F70EA00AFE6D9;
 					};
 				};
 			};
@@ -233,23 +244,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* TGCore_Example */,
-				607FACE41AFB9204008FA782 /* TGCore_Tests */,
+				D11DB55B235F70EA00AFE6D9 /* TGCoreExample */,
+				D11DB570235F70EC00AFE6D9 /* TGCoreExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACCE1AFB9204008FA782 /* Resources */ = {
+		D11DB55A235F70EA00AFE6D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				D11DB56B235F70EC00AFE6D9 /* LaunchScreen.storyboard in Resources */,
+				D11DB568235F70EC00AFE6D9 /* Preview Assets.xcassets in Resources */,
+				D11DB565235F70EC00AFE6D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		D11DB56F235F70EC00AFE6D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,7 +271,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD3D007C3D462A0AD7F278 /* [CP] Check Pods Manifest.lock */ = {
+		2950C3EFA86A1E49C2CDF8C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,52 +286,56 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TGCore_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TGCoreExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5FA0624042213E0AF9EFC77B /* [CP] Embed Pods Frameworks */ = {
+		97BE8D42822D386D60DA2205 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TGCore_Example/Pods-TGCore_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TGCoreExampleTests/Pods-TGCoreExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCoreExampleTests/Pods-TGCoreExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4663DD89E8DD50333469E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGCoreExample/Pods-TGCoreExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/TGCore/TGCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TGCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCore_Example/Pods-TGCore_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCoreExample/Pods-TGCoreExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		79BD67496A9462CB15AD45CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TGCore_Tests/Pods-TGCore_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCore_Tests/Pods-TGCore_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB382ADB0F7B48CE7526B77F /* [CP] Check Pods Manifest.lock */ = {
+		F7596D9AD77E37FB09FBEDF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,7 +350,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TGCore_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TGCoreExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,40 +360,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACCC1AFB9204008FA782 /* Sources */ = {
+		D11DB558235F70EA00AFE6D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11DB4E1235F61C600AFE6D9 /* AppDelegate.swift in Sources */,
-				D11DB4E0235F61C600AFE6D9 /* SceneDelegate.swift in Sources */,
+				D11DB593235F74F100AFE6D9 /* SceneDelegate.swift in Sources */,
+				D11DB592235F74F100AFE6D9 /* AppDelegate.swift in Sources */,
+				D11DB563235F70EA00AFE6D9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		D11DB56D235F70EC00AFE6D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				D11DB576235F70EC00AFE6D9 /* TGCoreExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		D11DB573235F70EC00AFE6D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TGCore_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			target = D11DB55B235F70EA00AFE6D9 /* TGCoreExample */;
+			targetProxy = D11DB572235F70EC00AFE6D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		D11DB569235F70EC00AFE6D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				D11DB56A235F70EC00AFE6D9 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,73 +499,125 @@
 			};
 			name = Release;
 		};
-		607FACF01AFB9204008FA782 /* Debug */ = {
+		D11DB583235F70EC00AFE6D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7127EE55ACC5D913ED4DD5DD /* Pods-TGCore_Example.debug.xcconfig */;
+			baseConfigurationReference = C8C8DFAE6AF154549F354705 /* Pods-TGCoreExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TGCore/Info.plist;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"TGCoreExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 54B96T6J84;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TGCoreExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ITS.TGCoreExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		607FACF11AFB9204008FA782 /* Release */ = {
+		D11DB584235F70EC00AFE6D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDE137BE28ADAC16F30ADAF /* Pods-TGCore_Example.release.xcconfig */;
+			baseConfigurationReference = B0EF2BD4C495C7F012D3E37C /* Pods-TGCoreExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TGCore/Info.plist;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TGCoreExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 54B96T6J84;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TGCoreExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ITS.TGCoreExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		D11DB585235F70EC00AFE6D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689948DB4B07492EF5854C38 /* Pods-TGCore_Tests.debug.xcconfig */;
+			baseConfigurationReference = C1F977AF5EA076397105C98E /* Pods-TGCoreExampleTests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 54B96T6J84;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TGCoreExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ITS.TGCoreExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCore_Example.app/TGCore_Example";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCoreExample.app/TGCoreExample";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		D11DB586235F70EC00AFE6D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7852AE5448B82AD161707FF8 /* Pods-TGCore_Tests.release.xcconfig */;
+			baseConfigurationReference = 6D40BF693B1A533AE7C15FFE /* Pods-TGCoreExampleTests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54B96T6J84;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TGCoreExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ITS.TGCoreExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCore_Example.app/TGCore_Example";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCoreExample.app/TGCoreExample";
 			};
 			name = Release;
 		};
@@ -564,20 +633,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TGCore_Example" */ = {
+		D11DB589235F70EC00AFE6D9 /* Build configuration list for PBXNativeTarget "TGCoreExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF01AFB9204008FA782 /* Debug */,
-				607FACF11AFB9204008FA782 /* Release */,
+				D11DB583235F70EC00AFE6D9 /* Debug */,
+				D11DB584235F70EC00AFE6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TGCore_Tests" */ = {
+		D11DB58A235F70EC00AFE6D9 /* Build configuration list for PBXNativeTarget "TGCoreExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				D11DB585235F70EC00AFE6D9 /* Debug */,
+				D11DB586235F70EC00AFE6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

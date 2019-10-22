@@ -1,9 +1,9 @@
 {
   "name": "TGCore",
   "version": "0.1.0",
-  "summary": "A short description of TGCore.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Alejandro Delgado/TGCore",
+  "summary": "This is a pod with a MVVM skeleton that helps to start swiftUI projects",
+  "description": "A pod for my own use MVVM example. This is a pod with a MVVM skeleton that helps to start swiftUI projects",
+  "homepage": "https://github.com/alexdelgadodiaz/mypod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
-  "source_files": "TGCore/Classes/**/*"
+  "swift_versions": "5.1",
+  "source_files": "TGCore/Classes/**/*",
+  "dependencies": {
+    "Parse": [
+      "~> 1.17.3"
+    ]
+  },
+  "swift_version": "5.1"
 }

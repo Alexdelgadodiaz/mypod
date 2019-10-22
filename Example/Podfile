@@ -2,12 +2,12 @@
 use_frameworks!
 
 
-target 'TGCore_Example' do
+target 'TGCoreExample' do
   pod 'TGCore', :path => '../'
 
-  target 'TGCore_Tests' do
+  target 'TGCoreExampleTests' do
     inherit! :search_paths
 
-    pod 'Parse', '~> 1.2.0'
+    pod 'Parse', '~> 1.17.3'
   end
 end
