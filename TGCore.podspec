@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGCore'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is a pod with a MVVM skeleton that helps to start swiftUI projects'
 
 # This description is used to generate tags and improve search results.
