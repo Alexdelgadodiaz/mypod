@@ -1,0 +1,6 @@
+framework module TGCore {
+  umbrella header "TGCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

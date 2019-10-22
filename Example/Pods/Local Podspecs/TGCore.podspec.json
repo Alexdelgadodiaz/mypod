@@ -1,0 +1,22 @@
+{
+  "name": "TGCore",
+  "version": "0.1.0",
+  "summary": "A short description of TGCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alejandro Delgado/TGCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alejandro Delgado": "alejandro.delgado@trainingym.com"
+  },
+  "source": {
+    "git": "https://github.com/Alejandro Delgado/TGCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TGCore/Classes/**/*"
+}

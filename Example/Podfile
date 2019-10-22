@@ -1,4 +1,6 @@
+
 use_frameworks!
+
 
 target 'TGCore_Example' do
   pod 'TGCore', :path => '../'
@@ -6,7 +8,6 @@ target 'TGCore_Example' do
   target 'TGCore_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0'
+    pod 'Parse', '~> 1.2.0'
   end
 end
