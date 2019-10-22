@@ -1,20 +1,46 @@
 //
 //  AppDelegate.swift
-//  TGTargetLabDEV
+//  TG Core iOS
 //
-//  Created by adiaz on 20/10/2019.
+//  Created by adiaz on 14/10/2019.
 //  Copyright © 2019 Intelinova Software SL. All rights reserved.
 //
 
 import UIKit
+import UserNotifications
+import TGCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any],
+      fetchCompletionHandler completionHandler:
+      @escaping (UIBackgroundFetchResult) -> Void
+    ) {
+        
+        
+      guard let aps = userInfo["aps"] as? [String: AnyObject] else {
+        completionHandler(.failed)
+        return
+      }
+        
+        print(aps)
+    }
 
-
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        CoreInterface.shared.createInstallationOnParse(deviceTokenData: deviceToken)
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+      print("Failed to register: \(error)")
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        CoreInterface.shared.initParse()
+        
+        CoreInterface.shared.registerForPushNotifications()
+
         return true
     }
 
@@ -31,6 +57,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+//    func registerForPushNotifications() {
+//    UNUserNotificationCenter.current()
+//      .requestAuthorization(options: [.alert, .sound, .badge]) {
+//        [weak self] granted, error in
+//
+//        print("Permission granted: \(granted)")
+//        guard granted else { return }
+//        self?.getNotificationSettings()
+//    }
+//    }
+//
+//    func getNotificationSettings() {
+//      UNUserNotificationCenter.current().getNotificationSettings { settings in
+//        print("Notification settings: \(settings)")
+//        guard settings.authorizationStatus == .authorized else { return }
+//        DispatchQueue.main.async {
+//          UIApplication.shared.registerForRemoteNotifications()
+//        }
+//      }
+//    }
+
 
 
 }

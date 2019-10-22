@@ -39,7 +39,7 @@ public struct CoreInterface {
 
     }
 
-    func registerForPushNotifications() {
+    public func registerForPushNotifications() {
     UNUserNotificationCenter.current()
       .requestAuthorization(options: [.alert, .sound, .badge]) {
         [self] granted, error in
@@ -78,7 +78,7 @@ public struct CoreInterface {
         }
     }
 
-    func createInstallationOnParse(deviceTokenData:Data){
+    public func createInstallationOnParse(deviceTokenData:Data){
         let tokenParts = deviceTokenData.map { data in String(format: "%02.2hhx", data) }
         let token = tokenParts.joined()
         print("Device Token: \(token)")
